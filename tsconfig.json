@@ -1,0 +1,12 @@
+{
+    "extends": "./base.tsconfig.json",
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "outDir": "./dist",
+        "rootDir": "./source",
+        "types": [
+            "node",
+            "@cocos/creator-types/editor",
+        ]
+    }
+}
